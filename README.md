@@ -6,3 +6,7 @@
 
     http://mix-mplus-ipa.osdn.jp/migu/
 
+## スクリーンショットの保存場所を変更
+
+defaults write com.apple.screencapture location ~/Desktop/screenshot
+killall SystemUIServer
